@@ -12,4 +12,4 @@ const renderChessBoard = (boardSize) => {
     }
 }
 
-renderChess(8);
+renderChessBoard(8);
