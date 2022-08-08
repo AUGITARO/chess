@@ -11,5 +11,6 @@ const renderChessBoard = (boardSize) => {
         containerElem.append(cardElem);
     }
 }
+const boardSize = +prompt('Введите размер доски');
 
-renderChessBoard(8);
+renderChessBoard(boardSize);
