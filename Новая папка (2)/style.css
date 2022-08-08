@@ -13,16 +13,16 @@ body {
 
 .container {
     display: flex;
-    width: 502px;
-    height: 502px;
+    width: 802px;
+    height: 802px;
     border: 1px solid;
     flex-wrap: wrap;
     background-color: #fff;
 }
 
 .card {
-    height: 50px;
-    width: 50px;
+    height: 100px;
+    width: 100px;
     background-color: orange;
     border: 1px solid;
 }
