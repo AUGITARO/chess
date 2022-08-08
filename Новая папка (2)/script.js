@@ -1,7 +1,6 @@
 const containerElem = document.querySelector('.container');
 
 const renderChessBoard = (boardSize) => {
-
     containerElem.style.width = boardSize * 100 + 2 + 'px';
     containerElem.style.height = boardSize * 100 + 2 + 'px';
 
@@ -11,6 +10,7 @@ const renderChessBoard = (boardSize) => {
         containerElem.append(cardElem);
     }
 }
+
 const boardSize = +prompt('Введите размер доски');
 
 renderChessBoard(boardSize);
